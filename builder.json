@@ -1,0 +1,21 @@
+{
+  "project": "BarEvents.",
+  "platform": "ios",
+  "github": {
+    "owner": "Aroncapi",
+    "repo": "bar-events-ios"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {
+    "scheme": "BarEvents",
+    "bundleId": "com.cibertec.velvetgilt"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
