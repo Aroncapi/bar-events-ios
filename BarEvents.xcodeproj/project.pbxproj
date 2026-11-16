@@ -245,7 +245,6 @@
 				A60000000000000000000050 /* RootView.swift in Sources */,
 				A60000000000000000000052 /* ServicesView.swift in Sources */,
 				A60000000000000000000054 /* TrackingView.swift in Sources */,
-				A60000000000000000000056 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

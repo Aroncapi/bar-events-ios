@@ -80,6 +80,18 @@ struct GhostButtonStyle: ButtonStyle {
     }
 }
 
+struct VGTextFieldStyle: TextFieldStyle {
+    func _body(configuration: TextField<Self._Label>) -> some View {
+        configuration
+            .font(.vgSans(15))
+            .foregroundStyle(VG.text)
+            .padding(.vertical, 12)
+            .padding(.horizontal, 14)
+            .background(VG.cardAlt)
+            .overlay(Rectangle().stroke(VG.line, lineWidth: 1))
+    }
+}
+
 extension View {
     func vgScreen() -> some View {
         self

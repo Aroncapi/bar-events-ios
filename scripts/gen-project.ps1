@@ -121,7 +121,6 @@ foreach ($dir in $dirs) {
 $sourceFileLines = foreach ($file in $swiftFiles) {
     "`t`t`t`t$($buildIds[$file.FullName]) /* $($file.Name) in Sources */,"
 }
-$sourceFileLines += "`t`t`t`t$assetsBuild /* Assets.xcassets in Resources */,"
 
 $template = @'
 // !$*UTF8*$!
